@@ -1,3 +1,35 @@
-view {
-  /* color: var(--themeColor); */
+swiper {
+  width: 100%;
+  height: 340rpx;
+}
+
+.cate {
+  display: flex;
+}
+
+.catenav {
+  padding: 20rpx;
+  flex: 1
+}
+
+.floor_title {
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.floor_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 10rpx;
+  grid-column-gap: 10rpx;
+}
+
+.floor_nav:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  /* height: 100%; */
+}
+.floor_img{
+  height: 100%;
+  width: 100%;
 }
